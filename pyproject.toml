@@ -1,0 +1,17 @@
+# plugins/nonebot-plugin-duel/pyproject.toml (治标方案)
+
+[build-system]
+requires = ["setuptools>=40.8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nonebot-plugin-duel"
+dynamic = [
+    "version",
+    "description",
+    "readme",
+    "license",
+    "authors",
+    "keywords",
+    "dependencies",
+]
